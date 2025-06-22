@@ -1,0 +1,4 @@
+module path
+typeinfo TestGraph.qmltypes
+prefer :/path/
+

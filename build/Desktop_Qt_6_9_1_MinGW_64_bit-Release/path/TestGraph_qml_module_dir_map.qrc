@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/path">C:/Qt_doc/TestGraph/build/Desktop_Qt_6_9_1_MinGW_64_bit-Release/path</file>
+
+  </qresource>
+</RCC>

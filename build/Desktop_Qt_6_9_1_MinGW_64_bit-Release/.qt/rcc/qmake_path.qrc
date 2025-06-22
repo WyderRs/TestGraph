@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/path">
+    <file alias="qmldir">C:/Qt_doc/TestGraph/build/Desktop_Qt_6_9_1_MinGW_64_bit-Release/path/qmldir</file>
+  </qresource>
+</RCC>
+

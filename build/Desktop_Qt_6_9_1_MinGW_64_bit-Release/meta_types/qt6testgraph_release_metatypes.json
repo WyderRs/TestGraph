@@ -1,0 +1,98 @@
+[
+    {
+        "classes": [
+            {
+                "className": "WControl",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "openFileButton",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "openFolderButton",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fileName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "openFile",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "WControl",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "xpos",
+                                "type": "QList<double>"
+                            },
+                            {
+                                "name": "ypos",
+                                "type": "QList<double>"
+                            },
+                            {
+                                "name": "count",
+                                "type": "uint32_t"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "dataPos",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "xpos",
+                                "type": "QList<QString>"
+                            },
+                            {
+                                "name": "count",
+                                "type": "uint32_t"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "listFiles",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "onDirectoryChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "wControl.h",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/path/">
+    <file alias="main.qml">C:/Qt_doc/TestGraph/main.qml</file>
+  </qresource>
+</RCC>
+
